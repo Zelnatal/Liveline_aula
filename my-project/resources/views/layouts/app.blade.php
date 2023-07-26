@@ -19,6 +19,7 @@
         <link href="site_css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="site_css/tooplate-crispy-kitchen.css" rel="stylesheet">
+        @livewireStyles
     </head>
     <body>
     <nav class="navbar navbar-expand-lg bg-white shadow-lg">
@@ -206,5 +207,5 @@
         <script src="site_js/jquery.min.js"></script>
         <script src="site_js/bootstrap.bundle.min.js"></script>
         <script src="site_js/custom.js"></script>
-
+        @livewireScripts
     </body>
